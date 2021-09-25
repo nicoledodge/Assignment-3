@@ -1,23 +1,17 @@
 # Assignment-3
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
+## (:
 
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
+User is presented with alert immediatly just to prompt them to click generate button to start series of prompts and confirms for criteria.
 
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
+When user clicks generate new password, a series of prompts and confirms will appear to decide criteria and password lenghth
 
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+Each confirm messages includes criteria questions regarding lowercase, uppercase, numeric, and special characters, wjhile also putting a limit of characters in a ranger of 8-128
 
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
+When password falls outside of this range, user is alerted to start over
 
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
+Used global to store all variabales regarding the criteria
 
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
+The computer uses math.random to randomly select and place characters into password
+
+Password is then printed out on the page in box, given with the css
