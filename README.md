@@ -16,4 +16,4 @@ The computer uses math.random to randomly select and place characters into passw
 
 Password is then printed out on the page in box, given with the css
 
-![Demo] (https://github.com/nicoledodge/Assignment-3/blob/main/assets/demo/Demo%20Password%20Generator.gif)
+![Demo](https://github.com/nicoledodge/Assignment-3/blob/main/assets/demo/Demo%20Password%20Generator.gif)
